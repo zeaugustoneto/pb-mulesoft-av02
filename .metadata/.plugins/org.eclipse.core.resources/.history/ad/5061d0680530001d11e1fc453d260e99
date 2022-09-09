@@ -1,0 +1,5 @@
+package br.com.pb_quiz.modelo;
+
+public class Questao {
+
+}

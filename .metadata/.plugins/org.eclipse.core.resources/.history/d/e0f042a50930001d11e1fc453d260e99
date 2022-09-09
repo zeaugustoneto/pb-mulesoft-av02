@@ -1,0 +1,18 @@
+package br.com.pb_quiz.dao;
+
+import javax.persistence.EntityManager;
+
+public class RespostasDao {
+
+	private EntityManager em;
+
+	public RespostasDao(EntityManager em) {
+		
+		this.em = em;
+	}
+	
+	public void cadastrar(Respostas resposta) {
+		this.em.persist(produto);
+	}
+	
+}

@@ -1,0 +1,11 @@
+package br.com.pb_quiz.modelo;
+
+public class Questao {
+
+	private int id;
+	private String pergunta;
+	private boolean verdadeira;
+	private boolean ativa;
+	
+	
+}

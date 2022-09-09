@@ -1,0 +1,16 @@
+package br.com.pb_quiz.modelo;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "questoes")
+public class Questao {
+
+	private Long id;
+	private String pergunta;
+	private boolean verdadeira;
+	private boolean ativa;
+	
+	
+}
